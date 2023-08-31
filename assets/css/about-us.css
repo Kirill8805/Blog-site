@@ -1,0 +1,99 @@
+.top-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.top-container .about-us-container-topleft {
+  padding: 4rem;
+  margin: 5rem 0rem 0rem 11.81rem;
+  width: 70%;
+  background: #fff;
+  position: relative;
+  bottom: -5rem;
+  z-index: 2;
+}
+.top-container .text-in-container {
+  padding: 16.37rem 9.5rem 4.94rem 2rem;
+}
+
+.bcg-choice {
+  width: 90%;
+  height: 50rem;
+  margin-right: 5%;
+  margin-left: 5%;
+  background: url(../img/people.png);
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  z-index: 1;
+}
+.bcg-choice .choise-container {
+  width: 39.375rem;
+  background: var(--Yellow, #FFD050);
+  padding: 2rem 3rem;
+  bottom: 0;
+  left: 6rem;
+  position: absolute;
+}
+.bcg-choice .choise-container .numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.bcg-choice .line-two {
+  bottom: 0;
+  left: 6rem;
+  width: 65rem;
+  position: absolute;
+}
+
+.about-container {
+  margin: 0;
+}
+
+.creatives-team-comtainer {
+  margin-top: 8rem;
+}
+.creatives-team-comtainer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.creatives-team-comtainer .container .text {
+  padding-right: 20rem;
+}
+.creatives-team-comtainer .container .text .h4 {
+  padding: 1rem 0rem;
+}
+.creatives-team-comtainer .container .img {
+  width: 120rem;
+  height: 30rem;
+  cursor: pointer;
+}
+.creatives-team-comtainer .container .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.creatives-team-comtainer .container:last-child {
+  padding-top: 8rem;
+}
+.creatives-team-comtainer .container:last-child .img {
+  padding-right: 4rem;
+}
+
+.list-of-authors {
+  margin-bottom: 8rem;
+}

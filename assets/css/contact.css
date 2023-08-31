@@ -1,0 +1,105 @@
+.contact-us-title {
+  text-align: center;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+.contact-us-title .cap-3 {
+  padding-bottom: 0.75rem;
+}
+.contact-us-title .h1 {
+  padding-bottom: 1.5rem;
+}
+.contact-us-title .body-1 {
+  color: var(--medium-grey, #6D6E76);
+}
+
+.working-house {
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 3rem 4rem;
+  background: var(--purple, #592EA9);
+}
+.working-house .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: start;
+}
+.working-house .top .top-1 {
+  border-bottom: 0.0625rem rgba(188, 152, 255, 0.6862745098) solid;
+  width: 100%;
+  padding-bottom: 1rem;
+  margin-right: 2.65rem;
+}
+.working-house .top .top-1 .body-2 {
+  color: rgba(188, 152, 255, 0.6862745098);
+}
+.working-house .top .top-1:last-child {
+  margin: 0;
+}
+.working-house .down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: start;
+}
+.working-house .down .down-1 {
+  width: 100%;
+  margin-right: 2.65rem;
+  padding-top: 1rem;
+  color: var(--light, #FFF);
+}
+.working-house .down .down-1:last-child {
+  margin: 0;
+}
+.working-house .down .body-1 {
+  color: rgba(188, 152, 255, 0.6862745098);
+}
+
+.inputs {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+.inputs .input-1 {
+  padding: 1.5rem;
+  border-radius: 3px;
+  border: 1px solid rgba(109, 110, 118, 0.5);
+  margin-top: 1rem;
+}
+.inputs select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: url(../img/icons/free-icon-down-arrow-3889508.png) no-repeat right;
+  background-position-x: calc(100% - 2.25rem);
+  cursor: pointer;
+}
+.inputs ::-webkit-input-placeholder {
+  color: var(--black, #232536);
+}
+.inputs textarea {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem; /* 175% */
+}
+.inputs .btn-yellow {
+  margin-top: 1rem;
+}

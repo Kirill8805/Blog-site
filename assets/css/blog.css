@@ -1,0 +1,103 @@
+.post-container {
+  background: var(--lavender, #F4F0F8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5%;
+}
+.post-container .text .h2 {
+  padding-right: 35%;
+  padding-top: 1.25rem;
+  padding-bottom: 1rem;
+  cursor: pointer;
+}
+.post-container .text .label {
+  padding-top: 1rem;
+}
+.post-container .text .body-1 {
+  padding-right: 35%;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.post-container img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.all-posts {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.all-posts .title {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  margin-bottom: 4rem;
+  border-bottom: 0.0625rem rgba(155, 152, 152, 0.3764705882) solid;
+}
+.all-posts .post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  height: 19.875rem;
+  margin-bottom: 4rem;
+}
+.all-posts .post .img {
+  width: 30.625rem;
+  cursor: pointer;
+}
+.all-posts .post .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.all-posts .post .text {
+  padding: 3%;
+}
+.all-posts .post .text .h2 {
+  padding-top: 1.25rem;
+  padding-bottom: 3rem;
+  padding-right: 30%;
+  cursor: pointer;
+}
+.all-posts .post .text .body-1 {
+  padding-right: 20%;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.btn .h4 {
+  color: var(--medium-grey, #6D6E76);
+  margin-right: 1.5rem;
+  cursor: pointer;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+.btn .h4:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+.btn .h3 {
+  cursor: pointer;
+  color: var(--black, #232536);
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+.btn .h3:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}

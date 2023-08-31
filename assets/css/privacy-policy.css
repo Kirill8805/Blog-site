@@ -1,0 +1,23 @@
+.policy-container {
+  background: var(--lavender, #F4F0F8);
+  text-align: center;
+  padding: 5rem 0;
+  margin-bottom: 8rem;
+}
+.policy-container .body-1 {
+  color: var(--black, #232536);
+}
+
+.content-container {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+.content-container .h1 {
+  margin-bottom: 0.5rem;
+}
+.content-container .h2 {
+  margin-top: 2rem;
+}
+.content-container .body-1 {
+  margin-top: 1.5rem;
+}
